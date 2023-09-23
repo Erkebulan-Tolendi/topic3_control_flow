@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:math';
+//import 'dart:math';
 void main() {
   // task -1
   // int number = 74;
@@ -87,21 +87,20 @@ void main() {
 //   return sum;
 
 
-// task - 6
+//task - 6
 
-  // int sum1 = calculateSumInRange(100, 500);
-  // print("a) Сумма всех целых чисел от 100 до 500: $sum1");
-
-  // var a, b;
-
-  // stdout.write("Введите значение a: ");
-  // a = stdin.readLineSync();
-
-  // stdout.write("Введите значение b: ");
-  // b = stdin.readLineSync();
-
-  // int sum2 = calculateSumInRange(a, b);
-  // print("б) Сумма всех целых чисел от $a до $b: $sum2");
+  // print('Введите значение a:');
+  // int a = int.parse(stdin.readLineSync()!);
+  
+  // print('Введите значение b:');
+  // int b = int.parse(stdin.readLineSync()!);
+  
+  // int sum = 0;
+  
+  // for (int i = a; i <= b; i++) {
+  //   sum += i;
+  // }
+  // print('Сумма всех целых чисел от $a до $b: $sum');
 
   //task - 8
   // double sum = 0;
@@ -189,12 +188,3 @@ void main() {
 
 }
 
-
-int calculateSumInRange(int start, int end) {
-  int sum = 0;
-  for (int i = start; i <= end; i++) {
-    sum += i;
-  }
-  return sum;
-
-}
